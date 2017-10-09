@@ -1,0 +1,268 @@
+1.first account at github and email verification
+2. software git.
+3. run cmd
+
+
+
+echo "# algorithm-with-Rasel" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/md-bayazid/algorithm-with-Rasel.git
+git push -u origin master
+
+
+
+
+
+----------------------------------------------
+Microsoft Windows [Version 6.3.9600]
+(c) 2013 Microsoft Corporation. All rights reserved.
+
+C:\Users\MD MAKSUDUR RAHMAN>cd desktop
+
+C:\Users\MD MAKSUDUR RAHMAN\Desktop>git
+usage: git [--version] [--help] [-C <path>] [-c name=value]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone      Clone a repository into a new directory
+   init       Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add        Add file contents to the index
+   mv         Move or rename a file, a directory, or a symlink
+   reset      Reset current HEAD to the specified state
+   rm         Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect     Use binary search to find the commit that introduced a bug
+   grep       Print lines matching a pattern
+   log        Show commit logs
+   show       Show various types of objects
+   status     Show the working tree status
+
+grow, mark and tweak your common history
+   branch     List, create, or delete branches
+   checkout   Switch branches or restore working tree files
+   commit     Record changes to the repository
+   diff       Show changes between commits, commit and working tree, etc
+   merge      Join two or more development histories together
+   rebase     Reapply commits on top of another base tip
+   tag        Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch      Download objects and refs from another repository
+   pull       Fetch from and integrate with another repository or a local branch
+
+   push       Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+
+C:\Users\MD MAKSUDUR RAHMAN\Desktop>git clone https://github.com/thisIsBadboy/al
+ogrithms.git
+Cloning into 'alogrithms'...
+remote: Counting objects: 5, done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 5 (delta 0), reused 5 (delta 0), pack-reused 0
+Unpacking objects: 100% (5/5), done.
+
+C:\Users\MD MAKSUDUR RAHMAN\Desktop>cd algorithms
+The system cannot find the path specified.
+
+C:\Users\MD MAKSUDUR RAHMAN\Desktop>cd alogrithms
+
+C:\Users\MD MAKSUDUR RAHMAN\Desktop\alogrithms>git add .
+
+C:\Users\MD MAKSUDUR RAHMAN\Desktop\alogrithms>git commit -m "Test"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'MD MAKSUDUR RAHMAN@MAKSUD-PC.(n
+one)')
+
+C:\Users\MD MAKSUDUR RAHMAN\Desktop\alogrithms>  git config --global user.email
+"you@example.com"
+
+C:\Users\MD MAKSUDUR RAHMAN\Desktop\alogrithms>  git config --global user.email
+"you@example.com
+
+C:\Users\MD MAKSUDUR RAHMAN\Desktop\alogrithms> git config --global user.email "
+md.bayazid.ndub@gmail.com"
+
+C:\Users\MD MAKSUDUR RAHMAN\Desktop\alogrithms>  git config --global user.name "
+MD bayazid"
+
+C:\Users\MD MAKSUDUR RAHMAN\Desktop\alogrithms>git commit -m "Test"
+[master a8ae557] Test
+ 1 file changed, 64 insertions(+)
+ create mode 100644 stack_bayazid.cpp
+
+C:\Users\MD MAKSUDUR RAHMAN\Desktop\alogrithms>git origin -v
+git: 'origin' is not a git command. See 'git --help'.
+
+C:\Users\MD MAKSUDUR RAHMAN\Desktop\alogrithms>git remote -v
+origin  https://github.com/thisIsBadboy/alogrithms.git (fetch)
+origin  https://github.com/thisIsBadboy/alogrithms.git (push)
+
+C:\Users\MD MAKSUDUR RAHMAN\Desktop\alogrithms>git push origin master
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Username for 'https://github.com': git origin master
+Password for 'https://git origin master@github.com':
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/thisIsBadboy/alogrithms.git
+/'
+
+C:\Users\MD MAKSUDUR RAHMAN\Desktop\alogrithms>git origin master
+git: 'origin' is not a git command. See 'git --help'.
+
+C:\Users\MD MAKSUDUR RAHMAN\Desktop\alogrithms>git push origin master
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Username for 'https://github.com':
+Password for 'https://github.com':
+remote: Anonymous access to thisIsBadboy/alogrithms.git denied.
+fatal: Authentication failed for 'https://github.com/thisIsBadboy/alogrithms.git
+/'
+
+C:\Users\MD MAKSUDUR RAHMAN\Desktop\alogrithms>
+C:\Users\MD MAKSUDUR RAHMAN\Desktop\alogrithms>git push origin master
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Username for 'https://github.com':
+Password for 'https://github.com':
+remote: Anonymous access to thisIsBadboy/alogrithms.git denied.
+fatal: Authentication failed for 'https://github.com/thisIsBadboy/alogrithms.git
+/'
+
+C:\Users\MD MAKSUDUR RAHMAN\Desktop\alogrithms>git push origin master
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Username for 'https://github.com': ^C
+C:\Users\MD MAKSUDUR RAHMAN\Desktop\alogrithms>
+
+C:\Users\MD MAKSUDUR RAHMAN\Desktop\alogrithms>git login
+git: 'login' is not a git command. See 'git --help'.
+
+The most similar command is
+        column
+
+C:\Users\MD MAKSUDUR RAHMAN\Desktop\alogrithms>git push origin master
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Username for 'https://github.com': md.bayazid.ndub@gmail.com
+Password for 'https://md.bayazid.ndub@gmail.com@github.com':
+remote: You must verify your email address.
+remote: See https://github.com/settings/emails.
+fatal: unable to access 'https://github.com/thisIsBadboy/alogrithms.git/': The r
+equested URL returned error: 403
+
+C:\Users\MD MAKSUDUR RAHMAN\Desktop\alogrithms>git push origin master
+remote: Permission to thisIsBadboy/alogrithms.git denied to md-bayazid.
+fatal: unable to access 'https://github.com/thisIsBadboy/alogrithms.git/': The r
+equested URL returned error: 403
+
+C:\Users\MD MAKSUDUR RAHMAN\Desktop\alogrithms>git init
+Reinitialized existing Git repository in C:/Users/MD MAKSUDUR RAHMAN/Desktop/alo
+grithms/.git/
+
+C:\Users\MD MAKSUDUR RAHMAN\Desktop\alogrithms>git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+C:\Users\MD MAKSUDUR RAHMAN\Desktop\alogrithms>git commit
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+C:\Users\MD MAKSUDUR RAHMAN\Desktop\alogrithms>git commit -m
+error: switch `m' requires a value
+usage: git commit [<options>] [--] <pathspec>...
+
+    -q, --quiet           suppress summary after successful commit
+    -v, --verbose         show diff in commit message template
+
+Commit message options
+    -F, --file <file>     read message from file
+    --author <author>     override author for commit
+    --date <date>         override date for commit
+    -m, --message <message>
+                          commit message
+    -c, --reedit-message <commit>
+                          reuse and edit message from specified commit
+    -C, --reuse-message <commit>
+                          reuse message from specified commit
+    --fixup <commit>      use autosquash formatted message to fixup specified co
+mmit
+    --squash <commit>     use autosquash formatted message to squash specified c
+ommit
+    --reset-author        the commit is authored by me now (used with -C/-c/--am
+end)
+    -s, --signoff         add Signed-off-by:
+    -t, --template <file>
+                          use specified template file
+    -e, --edit            force edit of commit
+    --cleanup <default>   how to strip spaces and #comments from message
+    --status              include status in commit message template
+    -S, --gpg-sign[=<key-id>]
+                          GPG sign commit
+
+Commit contents options
+    -a, --all             commit all changed files
+    -i, --include         add specified files to index for commit
+    --interactive         interactively add files
+    -p, --patch           interactively add changes
+    -o, --only            commit only specified files
+    -n, --no-verify       bypass pre-commit and commit-msg hooks
+    --dry-run             show what would be committed
+    --short               show status concisely
+    --branch              show branch information
+    --porcelain           machine-readable output
+    --long                show status in long format (default)
+    -z, --null            terminate entries with NUL
+    --amend               amend previous commit
+    --no-post-rewrite     bypass post-rewrite hook
+    -u, --untracked-files[=<mode>]
+                          show untracked files, optional modes: all, normal, no.
+ (Default: all)
+
+
+C:\Users\MD MAKSUDUR RAHMAN\Desktop\alogrithms>git commit -m "Test"
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+C:\Users\MD MAKSUDUR RAHMAN\Desktop\alogrithms>git push origin master
+remote: Permission to thisIsBadboy/alogrithms.git denied to md-bayazid.
+fatal: unable to access 'https://github.com/thisIsBadboy/alogrithms.git/': The r
+equested URL returned error: 403
+
+C:\Users\MD MAKSUDUR RAHMAN\Desktop\alogrithms>git push origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 629 bytes | 629.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/thisIsBadboy/alogrithms.git
+   b380936..a8ae557  master -> master
+
+C:\Users\MD MAKSUDUR RAHMAN\Desktop\alogrithms>git push origin master
+
