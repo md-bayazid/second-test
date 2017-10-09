@@ -1,0 +1,19 @@
+
+
+
+
+
+-------------------------------------------------------
+initialize: git init
+
+Check  : git remote -v
+
+Connect: git remote add bayazidPc link_from_github
+
+//bayazidPc holo name of connection name/ remote name
+
+Push   : git push bayazidPc master
+
+//Pull   : git pull bayazidPc master
+
+Check  : git remote -v
